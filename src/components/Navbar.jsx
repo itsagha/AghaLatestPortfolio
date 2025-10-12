@@ -144,7 +144,7 @@ function Navbar({ props }) {
               <li><a href="#about" onClick={toggleMenu} className="transition">About</a></li>
               <li><a href="#skills" onClick={toggleMenu} className="transition">Skills</a></li>
               <li><a href="#projects" onClick={toggleMenu} className="transition">Projects</a></li>
-              <li><a href="#experience" onClick={toggleMenu} className="transition">Experience</a></li>
+              <li><a href="#experience" onClick={toggleMenu} className="transition">Experiences</a></li>
               <li><a href="#contact" onClick={toggleMenu} className="transition">Contact</a></li>
 
               {/* Dark mode toggle mobile */}
