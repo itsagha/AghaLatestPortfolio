@@ -8,9 +8,10 @@ export default function SkillsCards() {
     { id: 4, title: "Figma", imgUrl: "/figma_skills.png" },
     { id: 5, title: "Shadcn", imgUrl: "/shadcn_skills.png" },
     { id: 6, title: "TailwindCSS", imgUrl: "/tailwind_skills.png" },
-    { id: 7, title: "Javascript", imgUrl: "/js_skills.png" },
+    { id: 7, title: "JavaScript", imgUrl: "/js_skills.png" },
     { id: 8, title: "Python", imgUrl: "/python_skills.png" },
     { id: 9, title: "Wordpress", imgUrl: "/wordpress_skills.png" },
+    { id: 10, title: "PHP", imgUrl: "/php_skills.png" },
   ];
 
   return (
