@@ -24,7 +24,7 @@ export default function Contacts({ props }) {
         </svg>
       ),
       link: "https://wa.me/6285156144986",
-      cn: "text-green-500 border-green-500 hover:bg-green-500 hover:text-white ",
+      cn: "text-green-500 border-green-500 hover:bg-green-500 hover:text-white",
     },
     {
       name: "Instagram",
@@ -106,7 +106,7 @@ export default function Contacts({ props }) {
         </svg>
       ),
       link: "https://github.com/itsagha",
-      cn: "dark:text-white text-gray-700 hover:bg-gray-700 hover:text-white",
+      cn: "dark:text-white text-gray-700 hover:bg-gray-700 hover:text-white dark:hover:text-gray-700 dark:hover:bg-white",
     },
   ];
 
@@ -127,7 +127,7 @@ export default function Contacts({ props }) {
             href={c.link}
             target="_blank"
             rel="noopener noreferrer"
-            className={`flex items-center justify-center gap-2 border py-2 px-4 rounded-xl ${c.cn} shadow-lg transform transition-all duration-700 hover:scale-102`}
+            className={`flex items-center justify-center gap-2 border py-2 px-4 rounded-xl ${c.cn} shadow-lg transform transition-all duration-700 hover:scale-104`}
           >
             {c.svg}
             {/* <span className="text-sm">{c.name}</span> */}
