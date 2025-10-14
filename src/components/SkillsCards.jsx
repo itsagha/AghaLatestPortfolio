@@ -12,6 +12,7 @@ export default function SkillsCards() {
     { id: 8, title: "Python", imgUrl: "/python_skills.png" },
     { id: 9, title: "Wordpress", imgUrl: "/wordpress_skills.png" },
     { id: 10, title: "PHP", imgUrl: "/php_skills.png" },
+    { id: 11, title: "TypeScript", imgUrl: "/ts_skills.png" },
   ];
 
   return (
