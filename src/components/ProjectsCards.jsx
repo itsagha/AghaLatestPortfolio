@@ -9,24 +9,28 @@ export default function ProjectsCards({ props }) {
     {
       id: 1,
       title: "Local Binary Pattern with Maximum Run Length and colors feature",
+      field: "Machine Learning",
       desc: "Content-Based Image Retrieval (CBIR) system using color Brodatz images. Extracts features from images using LBP, Maximum Run Length, and color features to find the most similar images among 2.800 Brodatz image patches.",
       imgUrls: ["/projectCBIR1.png", "/projectCBIR2.png", "/projectCBIR3.png"],
     },
     {
       id: 2,
       title: "Soillessmart",
+      field: "Software Development",
       desc: "Soillessmart is a Hydroponic Farm education platform made by Mulsa Massive Team that provide many courses about hydroponic farm. Basically, it’s like a bootcamp but we sell a hydroponic courses. To handle the payment gateway, we use Midtrans API to integrate the payment gateway on this website. There are 3 roles in this website, they are users, admin, and teacher. ",
       imgUrls: ["/soillessmart1.png", "/soillessmart2.png", "/soillessmart3.png", "/soillessmart4.png", "/soillessmart5.png"],
     },
     {
       id: 3,
       title: "Learnify",
+      field: "Software Development",
       desc: "A website focused on e-learning, where teachers can create materials, assignments for each material, and exams for each material. All students can complete the assignments and exams provided by the teachers and view their scores immediately.",
       imgUrls: ["/learnify1.png", "/learnify2.png", "/learnify3.png", "/learnify4.png", "/learnify5.png", "/learnify6.png"],
     },
     {
       id: 4,
       title: "Shot Spotter",
+      field: "Software Development",
       desc: "This simple website was created for the project of web programming and software engineering courses in the 4th semester. I purposely created an easy design to save time in implementation. In this project, I contributed to UI/UX design and Front-end Development. My 2 friends contributed to the back-end development using Laravel.",
       imgUrls: ["/shotspotter1.jpg", "/shotspotter2.jpg", "/shotspotter3.jpg", "/shotspotter4.jpg", "/shotspotter5.jpg"],
     },
@@ -43,10 +47,13 @@ export default function ProjectsCards({ props }) {
       {cards.map((card) => (
         <div
           key={card.id}
-          className="shadow-xl border border-gray-300 dark:border-gray-700 rounded-2xl p-4 bg-white dark:bg-gray-800 transform transition-all duration-700 hover:scale-102 hover:shadow-[0_0_20px_rgba(250,45,72,0.6)]"
+          className="shadow-xl border border-gray-300 dark:border-gray-700 rounded-2xl p-4 bg-white dark:bg-gray-800 transform transition-all duration-700 hover:scale-101 hover:shadow-[0_0_20px_rgba(250,45,72,0.6)]"
         >
           <h3 className="font-bold mb-2 dark:text-white min-h-10">{card.title}</h3>
-          <p className="text-gray-500 dark:text-gray-400 mb-4 text-justify min-h-40">{card.desc}</p>
+          <span className="px-3 py-1 text-sm text-gray-400 rounded-full border border-gray-300 dark:border-gray-700">
+            {card.field}
+          </span>
+          <p className="text-gray-500 dark:text-gray-400 my-4 text-justify min-h-40">{card.desc}</p>
 
           <div className="relative">
             {/* Prev Button */}
