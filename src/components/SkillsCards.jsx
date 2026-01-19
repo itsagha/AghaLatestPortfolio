@@ -1,5 +1,3 @@
-import Marquee from "react-fast-marquee"
-
 export default function SkillsCards() {
   const cards = [
     { id: 1, title: "React", imgUrl: "/react_skills.png" },
@@ -13,32 +11,26 @@ export default function SkillsCards() {
     { id: 9, title: "Wordpress", imgUrl: "/wordpress_skills.png" },
     { id: 10, title: "PHP", imgUrl: "/php_skills.png" },
     { id: 11, title: "TypeScript", imgUrl: "/ts_skills.png" },
+    { id: 12, title: "Google Colab", imgUrl: "/colab_skills.svg" },
   ];
 
   return (
-    <div className="relative w-full overflow-hidden rounded-xl bg-white">
-      <Marquee
-        pauseOnHover
-        speed={55}
-        gradient={true}
-        gradientWidth={100}
-      >
-        {cards.map((card) => (
-          <div
-            key={card.id}
-            className="flex flex-col items-center justify-center p-4 w-32 md:w-40 lg:w-48 mx-4"
-          >
-            <img
-              src={card.imgUrl}
-              alt={card.title}
-              className="w-full h-auto object-contain"
-            />
-            <p className="text-center text-sm md:text-base mt-2 text-gray-500">
-              {card.title}
-            </p>
-          </div>
-        ))}
-      </Marquee>
+    <div className="grid grid-cols-2 md:grid-cols-6 gap-6">
+      {cards.map((card) => (
+        <div
+          key={card.id}
+          className="p-4 rounded-xl shadow-xl border border-gray-300 dark:border-gray-700 transform transition-all duration-700 hover:scale-101 hover:shadow-[0_0_20px_rgba(250,45,72,0.6)]"
+        >
+          <img
+            src={card.imgUrl}
+            alt={card.title}
+            className="w-full h-auto object-contain"
+          />
+          <p className="text-center text-sm md:text-base mt-2 dark:text-white text-gray-500">
+            {card.title}
+          </p>
+        </div>
+      ))}
     </div>
   );
 }

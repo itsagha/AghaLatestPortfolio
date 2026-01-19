@@ -3,34 +3,41 @@ import React from "react"
 const experiences = [
   {
     id: 1,
+    title: "Internship at Pegadaian Jakarta",
+    role: "Information Technology Project Management Office Intern",
+    duration: "Jan 2026 - Present",
+    description: "Assisted the IT PMO team in monitoring and evaluating IT project progress based on scope, schedule, and cost constraints."
+  },
+  {
+    id: 2,
     title: "Internship at Gaotek Inc.",
     role: "Web Developer Intern",
     duration: "May 2025 - July 2025",
     description: "Developed an online shop using wordpress, and collaborated with the design team."
   },
   {
-    id: 2,
+    id: 3,
     title: "MSIB Batch 6th at Infinite Learning",
     role: "Web Developer Student",
     duration: "September 2024 - December 2024",
     description: "Developed a Hydroponic Farm education platform that provide many courses about hydroponic farm."
   },
   {
-    id: 3,
+    id: 4,
     title: "Student Executive Board (BEM) FATISDA, Sebelas Maret University",
     role: "Staff of the Scientific and Cultural Arts Ministry",
     duration: "February 2024 - December 2024",
     description: "Responsible for 2 work programs. Both are Event Hub and Learning Labs."
   },
   {
-    id: 4,
+    id: 5,
     title: "P!NGFEST",
     role: "General Affair",
     duration: "April 2024 - October 2024",
     description: "Responsible for operational activities during the event, including coordinating with other divisions to handle obstacles that may occur."
   },
   {
-    id: 5,
+    id: 6,
     title: "Student Council of Nurul Fikri Boarding School",
     role: "Secretary",
     duration: "January 2021 - December 2021",
