@@ -62,7 +62,11 @@ export default function ExperiencesCards() {
               {/* Content */}
               <div className="ml-6">
                 <h3 className="font-bold text-xl dark:text-white">{exp.title}</h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400">{exp.role} | {exp.duration}</p>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  <span className="font-bold">
+                    {exp.role}
+                  </span><br />{exp.duration}
+                </p>
                 <p className="mt-2 text-gray-700 dark:text-gray-300 text-justify">{exp.description}</p>
               </div>
             </div>
