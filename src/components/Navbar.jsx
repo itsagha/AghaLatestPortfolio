@@ -33,7 +33,7 @@ function Navbar() {
     <motion.nav
       layout
       initial={false}
-      className="max-w-5xl bg-transparent fixed top-0 left-0 right-0 shadow-xl py-2 px-4 z-50 mx-auto md:rounded-2xl md:mt-4 backdrop-blur-sm transition-colors duration-700"
+      className="md:max-w-5xl fixed top-0 left-0 right-0 shadow-[0_20px_40px_rgba(0,0,0,0.2)] py-2 px-4 z-50 md:mx-auto mx-3 rounded-2xl mt-4 backdrop-blur-sm transition-colors duration-700"
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <img src="/PortoLogo.png" alt="Logo" className="h-12" />
