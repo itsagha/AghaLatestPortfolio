@@ -5,7 +5,7 @@ const experiences = [
     id: 1,
     title: "Internship at Pegadaian Jakarta",
     role: "Information Technology Project Management Office Intern",
-    duration: "Jan 2026 - Present",
+    duration: "Jan 2026 - Feb 2026",
     description: "Assisted the IT PMO team in monitoring and evaluating IT project progress based on scope, schedule, and cost constraints."
   },
   {
