@@ -34,6 +34,13 @@ export default function ProjectsCards({ props }) {
       desc: "This simple website was created for the project of web programming and software engineering courses in the 4th semester. I purposely created an easy design to save time in implementation. In this project, I contributed to UI/UX design and Front-end Development. My 2 friends contributed to the back-end development using Laravel.",
       imgUrls: ["/shotspotter1.jpg", "/shotspotter2.jpg", "/shotspotter3.jpg", "/shotspotter4.jpg", "/shotspotter5.jpg"],
     },
+    {
+      id: 5,
+      title: "IDR/USD Exchange Rates Forecasting ",
+      field: "Data Mining",
+      desc: "A hybrid ARIMAX-Random Forest model designed to forecast the IDR/USD exchange rate using historical data from January 2020 to January 2025. By combining linear time-series modeling with non-linear ensemble learning, the model achieved high accuracy with a MAPE of 0.3289% and MAE of 52.17.",
+      imgUrls: ["/projectIDRUSD_Exchangerates.png"],
+    },
     
   ];
 
@@ -140,7 +147,6 @@ export default function ProjectsCards({ props }) {
           </div>
         </div>
       )}
-      <p className="text-gray-500 dark:text-gray-400 leading-relaxed text-justify">And many more!</p>
     </div>
   );
 }
